@@ -1,0 +1,87 @@
+#Question:: 01 
+#Declare two variables, num1 and num2, with any integer values. Use these to calculate their sum and print the result.
+num1 = 6
+num2 = 4
+# calculate and print their sum
+sum_result = num1 + num2
+print ('The sum of ',num1,"and",num2,"is:",sum_result)
+#Question: 02 
+#Create a variable called message and give it a string value. Append the string " World!" to it and print the updated message. Explore basic string operations in Python.
+message = "beautiful"
+message += "World!"
+print(message)
+#Question 3
+#Declare a variable, is_python_fun, and assign it a boolean value. Print a statement based on whether Python is considered fun. Learn to use boolean variables for decision-making in Python.
+is_python_fun = False       # or assing a True than print ("Python is a fun")
+#print a statement based that python not considered a fun 
+if is_python_fun:
+    print("python is not a fun.")
+else:
+    print("python is a fun.") 
+#Question: 4 
+#Create a list called fruits with at least three different fruit names. Print the list, add a new fruit, and then print the updated list. Understand the basics of working with lists in Python.
+# Create a list of fruits
+Fruits = ["Kiwi","Strawberry","Cherry"]  
+# original fruits list
+print("Original fruit list :",Fruits)
+# Add a new fruits in the list 
+Fruits.append("Banana")
+# updata list
+print("Updata list is :",Fruits)
+#Question 5
+#Declare a variable called price with a floating-point value. Convert it to an integer and print both the original and converted values. Explore how to convert between different data types in Python.
+price = 4.5
+#print original value
+print("Original value is :",price)
+# convert value into integer
+integer_value = int(price)
+# print converted value.
+print("Converted value is that :",integer_value)
+#Question 6
+#Create a dictionary named student_info with keys for 'name', 'age', and 'grade'. Assign corresponding values and print the dictionary. Learn how to work with dictionaries, a versatile data structure in Python.
+student_info = {
+    "name":"Muhammad Hammad",
+    "age" : 19,
+    "grade": "A"
+}
+#print dictionary
+print("student_information:",student_info)
+#Question 7
+#Write a program that takes user input for their age and prints a message addressing their age group (e.g., "Teenager," "Adult"). Explore user interaction and conditional statements in Python.
+
+age = int(input('Please enter a persons age.'))
+
+if age >= 0 and age <= 12:
+    print("Child")
+
+elif age >= 13 and age <= 18:
+    print("Teen")
+
+else:
+    print("Adult")
+    print(age)
+#Question 8
+#Create a complex number variable, comp_num, with real and imaginary parts. Print both parts separately. Understand the representation of complex numbers in Python.
+comp_num = 2+6j
+# print the parts of complex number
+print ("the real part of complex number is :", end="")
+print (comp_num.real)
+print ("the imaginary part of complex number is :", end="")
+print (comp_num.imag)
+#Question 9
+#Combine two strings using concatenation. Use string interpolation to include the length of the resulting string in a print statement. Explore different ways to manipulate strings in Python.
+string1 = "Muhammad"
+string2 = "Hammad"
+# + operator is used to combine strings
+print(string1 + string2)
+print("total length of combine string is :",len(string1+string2))
+# join() method is used to combine the strings
+print ("".join([string1, string2]))
+#Question 10
+#Create a tuple named days_of_week with the names of the days. Access and print the third day of the week. Understand the basics of working with tuples in Python.
+days_of_week = ("Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday")
+print(days_of_week[2])
+    
+
+
+
